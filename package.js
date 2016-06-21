@@ -8,5 +8,5 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.3');
-  api.addFiles('bower_components/turn.min.js', 'client');
+  api.addFiles('bower_components/turnjs/turn.min.js', 'client');
 });
